@@ -138,9 +138,10 @@ width: 90vw;
 margin: 0 auto;
 max-width: 1170px;
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-grid-column-gap: 1.5rem;
-grid-row-gap: 2rem;
+grid-template-columns: repeat(  minmax(200px, 1fr));
+grid-template-columns: auto auto auto auto;
+grid-column-gap: 2.5rem;
+grid-row-gap: 5rem;
 
 }
 
